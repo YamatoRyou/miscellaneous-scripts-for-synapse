@@ -13,6 +13,7 @@
 - 脚本完全依赖 Synapse 的容器日志, 请确保日志级别为 DEBUG;
 - 脚本依赖 在 Docker 中运行的 Postgres 并用于状态与数据存储;
 - 脚本依赖 `jq` 命令以解析 JSON;
+- 脚本依赖 `timeout` 命令以监控进程 ID;
 - 脚本依赖 `openssl` 命令以生成随机数;
 - 脚本依赖在 Docker 中运行的 ntfy, 用于服务器外通知;
 - 脚本依赖的 Shell 为 ash.
