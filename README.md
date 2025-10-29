@@ -8,9 +8,12 @@
 
 # 脚本运行时要求
 - Synapse 在 Docker 中运行;
+- 至少 1 个用于 Synapse 的 nginx 反向代理, 并且 nginx 在 Docker 中运行;
+- nginx需要额外配置以启用 `ngx_http_limit_req_module` 模块;
 - 脚本完全依赖 Synapse 的容器日志, 请确保日志级别为 DEBUG;
-- 脚本依赖 Postgres 用于状态与数据存储;
-- 脚本依赖 jq 以解析 JSON;
+- 脚本依赖 在 Docker 中运行的 Postgres 并用于状态与数据存储;
+- 脚本依赖 `jq` 命令以解析 JSON;
+- 脚本依赖 `openssl` 命令以生成随机数;
 - 脚本依赖在 Docker 中运行的 ntfy, 用于服务器外通知;
 - 脚本依赖的 Shell 为 ash.
 
