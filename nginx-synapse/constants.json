@@ -1,0 +1,10 @@
+{
+    "container_name": "",
+    "keyword_when_container_exit": "1#1: signal 3 (SIGQUIT) received, shutting down",
+    "docker_execfile_path": "/usr/local/bin/docker",
+    "ntfy_url": "",
+    "synapse_url": "",
+    "synapse_server_name": "",
+    "synapse_access_token": "",
+    "synapse_access_token_owner": ""
+}

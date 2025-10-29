@@ -1,0 +1,22 @@
+{
+    "container_name": "",
+    "aux_container_name": "",
+    "_aux_container_name_comment": "",
+    "keyword_when_container_exit": "sentinel - Received SIGTERM, shutting down.",
+    "docker_execfile_path": "/usr/local/bin/docker",
+    "ntfy_url": "",
+    "synapse_url": "",
+    "synapse_server_name": "",
+    "synapse_access_token": "",
+    "synapse_access_token_owner": "",
+    "filesize_limit": 5242880,
+    "filesize_limit2": 26214400,
+    "database": {
+      "container_name": "",
+      "postgres_container_lan_ipv4": "",
+      "postgres_database_port": ,
+      "postgres_database_name": "",
+      "postgres_database_name2": "",
+      "postgres_database_operator_name": ""
+    }
+}
